@@ -1,0 +1,25 @@
+# 启动参数 --spring.profiles.active=server1
+server:
+  port: 8762
+spring:
+  profiles: discount
+  application:
+    name: SERVICE-HI
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+---
+# 启动参数 --spring.profiles.active=server2
+server:
+  port: 8763
+spring:
+  profiles: nor
+  application:
+    name: SERVICE-HI
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
