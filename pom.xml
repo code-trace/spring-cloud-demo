@@ -18,6 +18,7 @@
         <module>eurekaServer</module>
         <module>eurekaClient</module>
         <module>ribbonService</module>
+        <module>zuulService</module>
     </modules>
 
     <properties>
