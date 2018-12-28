@@ -19,6 +19,7 @@
         <module>eurekaClient</module>
         <module>ribbonService</module>
         <module>zuulService</module>
+        <module>configServer</module>
     </modules>
 
     <properties>
